@@ -1,0 +1,78 @@
+.container img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-block: 2rem;
+}
+
+.container header .wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.container header strong {
+  white-space: nowrap;
+  font-style: italic;
+}
+
+.container header .wrapper .user-image {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+
+#person-input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+
+  background-color: var(--neutral-2);
+  color: var(--text-color);
+}
+
+#person-input::placeholder {
+  color: var(--text-color);
+}
+
+.button {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+
+  background-color: var(--neutral-3);
+  color: var(--text-color);
+
+  transition: background 300ms ease-in-out;
+
+  margin-bottom: 3rem;
+}
+
+.button:hover {
+  background-color: var(--neutral-4);
+}
